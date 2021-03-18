@@ -38,7 +38,5 @@ public class Tag extends AbstractEntity {
         this.name = name;
     }
 
-    public List<Event> getEvents() {
-        return events;
-    }
+    public List<Event> getEvents() { return events; }
 }

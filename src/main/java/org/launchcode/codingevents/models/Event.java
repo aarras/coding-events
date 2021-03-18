@@ -53,25 +53,15 @@ public class Event extends AbstractEntity {
         this.eventCategory = eventCategory;
     }
 
-    public EventDetails getEventDetails() {
-        return eventDetails;
-    }
+    public EventDetails getEventDetails() { return eventDetails; }
 
-    public void setEventDetails(EventDetails eventDetails) {
-        this.eventDetails = eventDetails;
-    }
+    public void setEventDetails(EventDetails eventDetails) { this.eventDetails = eventDetails; }
 
-    public List<Tag> getTags() {
-        return tags;
-    }
+    public List<Tag> getTags() { return tags; }
 
-    public void addTag(Tag tag) {
-        this.tags.add(tag);
-    }
+    public void addTag(Tag tag) { this.tags.add(tag); }
 
     @Override
-    public String toString() {
-        return name;
-    }
+    public String toString() { return name; }
 
 }
